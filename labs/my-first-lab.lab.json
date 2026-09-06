@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "name": "My first lab",
+    "board_id": "alhambra-ii"
+  },
+  "peripherals": [
+    {
+      "id": "seven_segment_1",
+      "type": "seven_segment",
+      "connections": {
+        "a": "D0",
+        "b": "D1",
+        "c": "D2",
+        "d": "D3",
+        "e": "D4",
+        "f": "D5",
+        "g": "D6",
+        "common": "D7"
+      },
+      "properties": {
+        "common": "cathode",
+        "color": "#ff3b30"
+      }
+    },
+    {
+      "id": "seven_segment_2",
+      "type": "seven_segment",
+      "connections": {
+        "a": "D0",
+        "b": "D1",
+        "c": "D2",
+        "d": "D3",
+        "e": "D4",
+        "f": "D5",
+        "g": "D6",
+        "common": "D7"
+      },
+      "properties": {
+        "common": "cathode",
+        "color": "#eea252"
+      }
+    }
+  ],
+  "workbench": {
+    "zoom": 0.8696
+  }
+}
