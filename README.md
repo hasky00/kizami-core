@@ -1,3 +1,5 @@
+![Kizami](docs/kizami-banner.png)
+
 # kizami-core
 
 The FPGA side of [Kizami](https://github.com/hasky00/kizami) — a Nostr-timestamped
