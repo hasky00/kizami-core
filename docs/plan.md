@@ -22,3 +22,6 @@ mic / LTC audio → ADC (on-board, 12-bit x4) → iCE40: LTC decode + hash
 - 12 MHz clock → 480000 cycles/frame at 25 fps
 - Open toolchain only: yosys / nextpnr / icestorm via Apio or Icestudio
 - FPGALab (AGPL) is a tool, not a dependency; this repo stays MIT
+
+## Resource log
+- m1 timecode+LEDs: 49 / 7680 LC, 9 IO
