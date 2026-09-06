@@ -1,0 +1,7 @@
+ice-build/
+_build/
+*.bin
+*.asc
+*.json
+!labs/*.json
+.venv/

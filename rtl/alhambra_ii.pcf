@@ -1,0 +1,10 @@
+# Alhambra II pin constraints (icestorm / apio)
+set_io CLK    49
+set_io LED[0] 45
+set_io LED[1] 44
+set_io LED[2] 43
+set_io LED[3] 42
+set_io LED[4] 41
+set_io LED[5] 39
+set_io LED[6] 38
+set_io LED[7] 37
