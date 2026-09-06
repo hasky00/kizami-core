@@ -25,3 +25,6 @@ mic / LTC audio → ADC (on-board, 12-bit x4) → iCE40: LTC decode + hash
 
 ## Resource log
 - m1 timecode+LEDs: 49 / 7680 LC, 9 IO
+
+## Resource log
+- m1 timecode+LEDs: 49 / 7680 LC, 9 IO
