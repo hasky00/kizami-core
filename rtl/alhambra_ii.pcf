@@ -8,3 +8,13 @@ set_io LED[4] 41
 set_io LED[5] 39
 set_io LED[6] 38
 set_io LED[7] 37
+# 7-seg on header D0..D8
+set_io SEG[0] 2
+set_io SEG[1] 1
+set_io SEG[2] 4
+set_io SEG[3] 3
+set_io SEG[4] 8
+set_io SEG[5] 7
+set_io SEG[6] 10
+set_io DIG[0] 9
+set_io DIG[1] 20
