@@ -1,15 +1,10 @@
-// display.v — frame count FF on 2 multiplexed 7-seg digits
+// display.v — frame count on 2 multiplexed 7-seg digits (BCD in, no division)
 module display (
     input  wire       clk,
-    input  wire [4:0] ff,
-    output wire [6:0] seg,   // shared segment lines
-    output reg  [1:0] dig    // digit select, active-low (common cathode)
+    input  wire [3:0] f10, f1,
+    output wire [6:0] seg,
+    output reg  [1:0] dig
 );
-    // tens / units split — the same BCD split LTC needs later
-    wire [3:0] f10 = ff / 10;
-    wire [3:0] f1  = ff % 10;
-
-    // scan ~1.5 kHz: 12 MHz / 8192, top bit picks the digit
     reg [12:0] scan = 0;
     always @(posedge clk) scan <= scan + 1;
     wire idx = scan[12];
@@ -17,8 +12,7 @@ module display (
     reg [3:0] cur;
     always @* begin
         cur = idx ? f1 : f10;
-        dig = idx ? 2'b01 : 2'b10;   // only one digit low at a time
+        dig = idx ? 2'b01 : 2'b10;
     end
-
     seg7 dec (.d(cur), .seg(seg));
 endmodule

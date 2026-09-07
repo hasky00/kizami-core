@@ -29,3 +29,4 @@ mic / LTC audio → ADC (on-board, 12-bit x4) → iCE40: LTC decode + hash
 ## Resource log
 - m1 timecode+LEDs: 49 / 7680 LC, 9 IO
 - m2 +2-digit 7seg: 113 / 7680 LC, 18 IO
+- m3a BCD odometer (8 digits), 2-digit 7seg, no division: 82 / 7680 LC
