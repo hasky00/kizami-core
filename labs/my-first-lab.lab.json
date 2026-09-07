@@ -19,7 +19,11 @@
       },
       "properties": {
         "common": "cathode",
-        "color": "#ff3b30"
+        "color": "#ff3b30",
+        "position": [
+          1136,
+          16
+        ]
       }
     },
     {
@@ -37,7 +41,143 @@
       },
       "properties": {
         "common": "cathode",
-        "color": "#eea252"
+        "color": "#eea252",
+        "position": [
+          976,
+          16
+        ]
+      }
+    },
+    {
+      "id": "seven_segment_3",
+      "type": "seven_segment",
+      "connections": {
+        "a": "D0",
+        "b": "D1",
+        "c": "D2",
+        "d": "D3",
+        "e": "D4",
+        "f": "D5",
+        "g": "D6",
+        "common": "D9"
+      },
+      "properties": {
+        "common": "cathode",
+        "color": "#eea252",
+        "position": [
+          816,
+          16
+        ]
+      }
+    },
+    {
+      "id": "seven_segment_4",
+      "type": "seven_segment",
+      "connections": {
+        "a": "D0",
+        "b": "D1",
+        "c": "D2",
+        "d": "D3",
+        "e": "D4",
+        "f": "D5",
+        "g": "D6",
+        "common": "D10"
+      },
+      "properties": {
+        "common": "cathode",
+        "color": "#eea252",
+        "position": [
+          656,
+          16
+        ]
+      }
+    },
+    {
+      "id": "seven_segment_5",
+      "type": "seven_segment",
+      "connections": {
+        "a": "D0",
+        "b": "D1",
+        "c": "D2",
+        "d": "D3",
+        "e": "D4",
+        "f": "D5",
+        "g": "D6",
+        "common": "D11"
+      },
+      "properties": {
+        "common": "cathode",
+        "color": "#eea252",
+        "position": [
+          496,
+          16
+        ]
+      }
+    },
+    {
+      "id": "seven_segment_6",
+      "type": "seven_segment",
+      "connections": {
+        "a": "D0",
+        "b": "D1",
+        "c": "D2",
+        "d": "D3",
+        "e": "D4",
+        "f": "D5",
+        "g": "D6",
+        "common": "D12"
+      },
+      "properties": {
+        "common": "cathode",
+        "color": "#eea252",
+        "position": [
+          336,
+          16
+        ]
+      }
+    },
+    {
+      "id": "seven_segment_7",
+      "type": "seven_segment",
+      "connections": {
+        "a": "D0",
+        "b": "D1",
+        "c": "D2",
+        "d": "D3",
+        "e": "D4",
+        "f": "D5",
+        "g": "D6",
+        "common": "D13"
+      },
+      "properties": {
+        "common": "cathode",
+        "color": "#eea252",
+        "position": [
+          176,
+          16
+        ]
+      }
+    },
+    {
+      "id": "seven_segment_8",
+      "type": "seven_segment",
+      "connections": {
+        "a": "D0",
+        "b": "D1",
+        "c": "D2",
+        "d": "D3",
+        "e": "D4",
+        "f": "D5",
+        "g": "D6",
+        "common": "DD0"
+      },
+      "properties": {
+        "common": "cathode",
+        "color": "#eea252",
+        "position": [
+          16,
+          16
+        ]
       }
     }
   ],
