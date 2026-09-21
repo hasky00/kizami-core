@@ -5,3 +5,6 @@ _build/
 *.json
 !labs/*.json
 .venv/
+*.lck
+.history/
+.DS_Store
